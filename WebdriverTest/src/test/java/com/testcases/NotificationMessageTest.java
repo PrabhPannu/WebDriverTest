@@ -41,7 +41,8 @@ public class NotificationMessageTest extends TestBase {
 
 	@AfterTest
 	public void tearDown() {
-		driver.quit();// terminates driver session and closes all windows
+		driver.quit();
+		//close all browser windows
 	}
 
 }
